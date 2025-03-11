@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #2c3e50;
+  border-bottom: 3px solid #3498db;
+}
+
+.portfolio-item {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
