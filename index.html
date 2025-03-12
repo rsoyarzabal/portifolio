@@ -1,23 +1,55 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Ricardo S. Oyarzabal - Portfólio</title>
+<html lang="pt-BR">
+<head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricardo Oyarzabal | Comunicação Científica & Tecnologia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <h1>Ricardo S. Oyarzabal</h1>
-    <p>Físico e Jornalista | Especialista em LaTeX e Machine Learning</p>
-    
-    <h2>Portfólio</h2>
-    <div class="portfolio-item">
-      <h3>Glossário de IA e Secas (LaTeX)</h3>
-      <p>E-book técnico com hyperlinks e referências cruzadas. Confira um trecho:</p>
-      <a href="Glossario_Secas_v1.pdf" target="_blank">Visualizar PDF</a>
-    </div>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <img src="foto-perfil.jpg" alt="Ricardo Oyarzabal" class="profile-img">
+            <h1>Ricardo S. Oyarzabal</h1>
+            <p class="subtitle">Físico | Jornalista | Especialista em LaTeX & ML</p>
+        </div>
+    </header>
 
-    <h2>Contato</h2>
-    <p>Email: ricardo.zabal@gmail.com</p>
-    <p>LinkedIn: linkedin.com/in/ricardo-sovek-oyarzabal-083555335</p>
-  </body>
+    <section id="sobre" class="section">
+        <h2>Sobre Mim</h2>
+        <p>Com 10 anos de experiência pós-doutorado, integro precisão científica e comunicação clara em projetos de análise climática e desenvolvimento de materiais técnicos.</p>
+    </section>
+
+    <section id="portfolio" class="section">
+        <h2>Portfólio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-card">
+                <h3>Glossário de IA e Secas</h3>
+                <p>E-book técnico em LaTeX com hyperlinks e referências cruzadas.</p>
+                <a href="Glossario_Secas_v1.pdf" target="_blank" class="btn">Ver Projeto <i class="fas fa-external-link-alt"></i></a>
+            </div>
+            <!-- Adicione mais cards conforme novos projetos -->
+        </div>
+    </section>
+
+    <section id="contato" class="section">
+        <h2>Contato</h2>
+        <div class="contact-links">
+            <a href="mailto:ricardo.zabal@gmail.com" class="contact-btn">
+                <i class="fas fa-envelope"></i> ricardo.zabal@gmail.com
+            </a>
+            <a href="https://linkedin.com/in/ricardo-sovek-oyarzabal-083555335" target="_blank" class="contact-btn">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+        </div>
+    </section>
+</body>
 </html>
