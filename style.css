@@ -86,7 +86,11 @@ nav a {
     border-radius: 5px;
     margin-top: 1rem;
 }
-
+.lattes-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
 /* Contato */
 .contact-links {
     display: flex;
