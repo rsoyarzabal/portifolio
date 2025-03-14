@@ -86,6 +86,34 @@ nav a {
     border-radius: 5px;
     margin-top: 1rem;
 }
+
+/* Estilos para gráficos */
+.grafico-container {
+    margin: 1.5rem 0;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.grafico-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.grafico-img:hover {
+    transform: scale(1.02);
+}
+
+.legenda {
+    font-size: 0.9rem;
+    color: #666;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
 .lattes-icon {
     width: 20px;
     height: 20px;
